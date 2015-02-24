@@ -14,7 +14,7 @@ ul{
     list-style: none;
 }
 
-/* --------------- +head+ ---------------*/
+/* --------------- +header+ ---------------*/
 
 /* --------------- ++nav banner++ ---------------*/
 
@@ -55,6 +55,36 @@ ul{
 .principal-nav{
     display: inline-block;
     float: right;
-    margin:0 20% 0 0;
+    margin: 0 20% 0 0;
     width: 54%;
 }
+
+/*.subnav::after{
+    background: url(../img/arrow-down-nav.png)no-repeat center right;
+    padding-right: 2px; 
+}*/
+
+/* --------------- ++Titles header++ ---------------*/
+
+.start-head{
+	background: url(../img/banner.jpg)no-repeat center;
+	height: 700px;
+}
+
+.start-head h1{
+    color: #FFF;
+    font-family: Times;
+    font-size: 3rem;
+    padding: 300px 0 0 15%;
+}
+
+.start-head h1 p{
+
+}
+
+
+
+
+
+
+
