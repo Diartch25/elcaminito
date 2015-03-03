@@ -10,6 +10,11 @@ a{
     text-decoration: none;
 }
 
+header{
+    background: url(../img/banner.jpg)no-repeat center;
+    background-size: cover;
+}
+
 ul{
     list-style: none;
 }
@@ -64,22 +69,71 @@ ul{
     padding-right: 2px; 
 }*/
 
-/* --------------- ++Titles header++ ---------------*/
+/* --------------- ++Titles header++ --------------- */
 
 .start-head{
-	background: url(../img/banner.jpg)no-repeat center;
 	height: 700px;
+    margin: 0 auto;
+    width: 80%;
 }
 
 .start-head h1{
-    color: #FFF;
-    font-family: Times;
     font-size: 3rem;
-    padding: 300px 0 0 15%;
+    padding: 300px 0 10px 0;
 }
 
 .start-head p{
+    font-size: 2.5rem;
 
+}
+
+.start-head h1, .start-head p{
+    color: #FFF;
+    font-family: Times;
+}
+
+
+/* --------------- ++About us++ --------------- */
+
+.about-us{
+    background-color: #CCC;
+    padding: 10px 0;
+}
+
+.about-us-title, .about-us-activities{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.about-us-title h2{
+    font-size: 1.7rem;
+    font-weight: lighter;
+    padding: 17px 0;
+    width: 100%;
+}
+
+.about-us-activities{
+    background: #E1E1E1;
+    padding: 0 0 0 0;
+}
+
+.about-us-title p{
+    display: inline-block;
+    line-height: 21.4px;
+    padding: 0 0 0 2%;
+    width: 66%;
+}
+
+.about-us-title a{
+    color: #FFF;
+    background: #418DBA;
+    float: right;
+    margin: 0 9% 0 0;
+    padding: 16px 41px;
+}
+
+.about-us-title a:hover{
+    background: #406172;
 }
 
 
